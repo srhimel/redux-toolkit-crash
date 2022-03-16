@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { removeReservation } from './redux/features/reservationSlice';
+import { removeReservation } from './redux/features/reservationsSlice';
 
 
 const ReservationCard = ({ name, index }) => {
